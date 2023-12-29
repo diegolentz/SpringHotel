@@ -365,4 +365,17 @@ footer {
 	 margin: 5px;
 	 font-size: 15px;
  }
+ /*precios -------------------------------------*/
+ .containerPrecios{
+	display: grid;
+  justify-content: stretch;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(4,auto); /* Cambiado a "auto" */
+  border: 2px solid red;
+  border-radius: 20px;
+  padding: 30px;
+  gap: 10px;
+  margin: 20px;
+   max-width: 100%;	
+ }
  
